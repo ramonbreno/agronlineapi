@@ -26,3 +26,6 @@ $container['db'] = function($c){
 
     return $pdo;
 };
+/* $container['ticketMapper'] = function ($c) {
+    return new TicketMapper($c->get('db'));
+}; */
